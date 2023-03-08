@@ -1,0 +1,11 @@
+.product-list-section {
+  background-color: var(--clr-primary-white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.product-list-section .title,
+.user-list-section .title {
+  padding: 0.3rem 0 1rem 0;
+}

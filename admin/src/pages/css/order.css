@@ -1,0 +1,99 @@
+.order-product-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 100%;
+  font-size: 1em;
+  height: 100%;
+  justify-content: center;
+}
+.order-product {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 1rem;
+}
+
+.order-address {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.order-product p {
+  width: fit-content;
+}
+
+.status {
+  width: 100%;
+  padding: 0.25rem 0.1rem;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+.gray {
+  color: rgb(255, 255, 255);
+  background-color: rgb(158, 157, 157);
+}
+
+.red {
+  color: rgb(70, 0, 0);
+  background-color: rgb(248, 98, 98);
+}
+
+.green {
+  color: rgb(0, 64, 0);
+  background-color: rgb(113, 206, 113);
+}
+
+.yellow {
+  color: rgb(89, 24, 0);
+  background-color: rgba(255, 187, 84, 0.99);
+}
+
+.status-btn {
+  box-shadow: var(--box-shadow);
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.6rem;
+  transition: 100ms ease-in-out;
+}
+
+.status-btn:hover {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+.status-bold {
+  font-size: 1em;
+  color: rgb(15, 35, 29);
+  background-color: rgb(155, 212, 194);
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.order-completed {
+  font-size: 1em;
+  font-weight: 700;
+  color: rgb(39, 131, 67);
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.pdf-btn-on {
+  width: 100%;
+  padding: 0.25rem 0.1rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  background-color: rgb(113, 26, 2);
+  color: white;
+}
+
+.pdf-btn-off {
+  cursor: not-allowed;
+  width: 100%;
+  padding: 0.25rem 0.1rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(113, 26, 2, 0.323);
+}

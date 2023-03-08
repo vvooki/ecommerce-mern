@@ -1,0 +1,85 @@
+.new-product-section {
+  background-color: var(--clr-primary-white);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.new-product-section form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.new-product-section input,
+.new-product-section select {
+  font-size: 1.1em;
+  border: 1px solid rgba(0, 0, 0, 0.375);
+  padding: 0.4rem;
+  max-width: 1200px;
+  border-radius: 0.2rem;
+}
+
+.new-product-section select {
+  max-width: 1216px;
+}
+
+.new-product-section button {
+  margin-top: 1rem;
+  max-width: 1216px;
+}
+
+.new-product-section .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.desc-imgs {
+  max-width: 1214px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.desc-imgs img {
+  padding: 0.4rem;
+  height: 12rem;
+}
+
+.new-product-section textarea {
+  max-width: 810px;
+  resize: vertical;
+  font-size: 0.9em;
+  border: 1px solid rgba(0, 0, 0, 0.375);
+  padding: 0.4rem;
+  max-width: 1200px;
+  border-radius: 0.2rem;
+}
+
+.new-product-section label {
+  gap: 0;
+  color: rgb(66, 66, 66);
+}
+
+/* HIDE RADIO */
+[type='radio'] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type='radio'] + img {
+  cursor: pointer;
+  transition: 100ms ease-in-out;
+}
+
+/* CHECKED STYLES */
+[type='radio']:checked + img {
+  border-radius: 1rem;
+  outline: 2px solid var(--clr-primary-blue-dark);
+}

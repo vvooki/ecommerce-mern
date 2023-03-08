@@ -1,0 +1,40 @@
+.alert {
+  margin: 1rem 0;
+  padding: 0.3rem 0;
+  height: 1.25rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 0.25rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  transition: 200ms ease-in-out;
+  max-width: 816px;
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

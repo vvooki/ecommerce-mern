@@ -1,0 +1,30 @@
+.user-list-section {
+  background-color: var(--clr-primary-white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.user-list-edit {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: rgb(92, 181, 92);
+  color: white;
+  cursor: pointer;
+  transition: 100ms ease-in;
+}
+
+.user-list-edit:hover {
+  background-color: rgb(11, 104, 11);
+}
+
+.delete-btn {
+  color: black;
+  cursor: pointer;
+  transition: 200ms ease-in;
+}
+
+.delete-btn:hover {
+  color: rgb(209, 26, 26);
+}

@@ -1,0 +1,31 @@
+header {
+  /* background-color: var(--clr-white); */
+  padding: 0.5rem 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-image {
+}
+
+.profile-image img {
+  -webkit-box-shadow: 0px 0px 17px -7px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 17px -7px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 17px -7px rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}

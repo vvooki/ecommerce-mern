@@ -1,0 +1,12 @@
+.chart-section {
+  background-color: var(--clr-primary-white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.chart-title {
+  font-weight: 600;
+  font-size: 1.7em;
+  margin-bottom: 2rem;
+}

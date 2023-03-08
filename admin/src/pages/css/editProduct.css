@@ -1,0 +1,108 @@
+.edit-product-section {
+}
+
+.edit-product-section > h3 {
+  padding: 1rem 0 2rem 0;
+}
+
+.edit-product-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.current-data {
+  width: 100%;
+  max-width: 20rem;
+  background-color: var(--clr-primary-white);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  min-width: 200px;
+}
+
+.current-data img {
+  /* width: 30%; */
+  max-width: 7rem;
+  display: block;
+  object-fit: cover;
+}
+
+.current-data h4 {
+  font-weight: 400;
+  color: var(--clr-grey-300);
+  font-size: 1em;
+}
+
+.new-data {
+  width: 100%;
+  background-color: var(--clr-primary-white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  min-width: 300px;
+}
+
+.new-data img {
+  max-height: 10rem;
+  width: fit-content;
+}
+
+.new-data h3 {
+  margin-bottom: 1.5rem;
+}
+
+.new-data form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form input {
+  font-size: 1.1em;
+  border-radius: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid black;
+}
+
+form button {
+  background-color: var(--clr-primary-blue-dark);
+  padding: 0.5rem 0;
+  color: var(--clr-primary-white);
+  border-radius: 0.2rem;
+  font-size: 1.1em;
+  transition: 100ms ease-in-out;
+}
+
+form button:hover {
+  background-color: var(--clr-primary-blue-darker);
+}
+
+.go-back-btn {
+  background-color: var(--clr-primary-black);
+  color: var(--clr-primary-white);
+  padding: 0.5rem 0.5rem;
+  display: grid;
+  place-items: center;
+  transition: 100ms ease-in-out;
+}
+
+.go-back-btn:hover {
+  background-color: var(--clr-primary-blue-darker);
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteImg {
+  transition: 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.deleteImg:hover {
+  filter: grayscale(100%);
+}
